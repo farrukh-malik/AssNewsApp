@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farrukhmalik.aasnewsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserArea.HomePage" />
+        <activity android:name=".Authentication.LoginPage" />
+        <activity android:name=".Authentication.SignupPage" />
+        <activity android:name=".Authentication.SigninPage" />
+        <activity android:name=".AdminArea.AdminMainPage" />
+        <activity android:name=".UserArea.VideoNewsPage" />
+        <activity android:name=".UserArea.PicturesNewsPage" />
+        <activity android:name=".UserArea.LiveNewsPage"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.farrukhmalik.aasnewsapp.AdminArea.PostVideoNews">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_titleVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_default_bg"
+        android:layout_marginTop="-2dp"
+        android:padding="10dp"
+        android:hint="  News Title"
+        android:textColorHint="#bbbbbb"
+        android:drawableLeft="@drawable/ic_action_name"/>
+
+
+    <EditText
+        android:id="@+id/et_descriptionVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_default_bg"
+        android:layout_marginTop="-2dp"
+        android:padding="10dp"
+        android:hint="  News Description"
+        android:textColorHint="#bbbbbb"
+        android:drawableLeft="@drawable/ic_description"/>
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/attachVideoBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:text="Attach Video"
+        android:background="@drawable/button_default_bg"
+        />
+
+
+    <Button
+        android:id="@+id/uploadVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:text="Upload"
+        android:background="@drawable/button_default_bg"
+        />
+
+
+
+    <ListView
+        android:id="@+id/videoList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

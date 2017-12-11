@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/aasone"
+    tools:context="com.example.farrukhmalik.aasnewsapp.MainActivity"
+    android:weightSum="1">
+
+
+    <!--<Button-->
+        <!--android:textSize="50dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:text="AAS News >"-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:id="@+id/go"-->
+        <!--android:layout_width="318dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_marginLeft="33dp"-->
+        <!--android:layout_marginTop="473dp" />-->
+
+
+</LinearLayout>
